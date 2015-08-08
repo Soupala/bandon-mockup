@@ -1,0 +1,1 @@
+Everything under the /dreamweaver directory is for Rick.
