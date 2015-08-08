@@ -1,0 +1,53 @@
+<template name="layout">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Bandon Vacation Rentals</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+	  <!--[if lt IE 9]>
+		<p class="browser-warning"><strong><i class="icon-exclamation-sign"></i> Oh No!</strong> - This is an <strong>older</strong> browser. Please visit <a href="http://browsehappy.com/" target="_blank">to upgrade</a>, or try a different browser to interactive with this app.</p>
+	  <![endif]-->
+
+	  {{> header}}
+	
+	  {{> yield}}
+
+	  {{> footer}}
+
+	</body>
+	
+</template>
+
+<template name="header">
+    <div class="container">
+        <div class="row div-center">
+            <div class="col-sm-12 col-md-12 col-md-12 div-center text-align-center">
+                <img src="images/bvrlogoFR.png" alt="logo" class="img-responsive img-logo"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-md-12 div-center text-align-center">
+                <div class="nav add-padding-5 text-align-center">
+                    <span class="nav-spacing"><a href="index.html" class="navHome">Home</a></span>
+                    <span class="nav-spacing"><a href="PelicansNest.html">Pelican's Nest</a></span>
+                    <span class="nav-spacing"><a href="bandon.html">Bandon</a></span>
+                    <span class="nav-spacing"><a href="contact.html">Contact</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="footer">
+    <div class="container">
+        <div class="row add-padding-5 text-align-center">
+            <div class="footer col-sm-12 col-md-12 col-md-12 div-center text-align-center">
+            Copyright Bandon Vacation Rentals 2015
+            </div>
+        </div>
+    </div>
+</template>
