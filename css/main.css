@@ -1,5 +1,3 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -7,13 +5,14 @@
 @import url('//fonts.googleapis.com/css?family=Bitter');
 
 body {
-   background-color: #8aa6dd;
-	background-image: url(../images/Home%20page.jpg);
+	background-color: #8aa6dd;
+	background-image: url(../images/homepage.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	font-style: normal;
 	font-weight: 400;
 	font-family: "Bitter", serif !important;
+	margin-top: 55px;
 }
 
 .container {
@@ -25,27 +24,35 @@ body {
 }
 
 .add-padding {
-    padding: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
 }
 
 .add-padding-sides {
-    padding: inherit 15px !important;
+	padding: inherit 15px !important;
 }
 
 .add-padding-5 {
-    padding: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
 }
 
 .text-align-center {
-	text-align:center;
+	text-align: center;
+	background-image: url(url);
 }
 
 .nav {
 	background-color: #F8C540;
 	font-weight: 700;
-	font-size: 1.3em;
-	border:0 solid #bbb1a7;
-	border-radius:2px;
+	font-size: 1.1em;
+	border: 0 solid #bbb1a7;
+	border-radius: 2px;
+	font-style: normal;
 }
 
 .nav-spacing {
@@ -58,13 +65,13 @@ body {
 }
 
 .img-logo {
-	max-height:250px;
-	margin:0 auto;
+	max-height: 268px;
+	margin: 0 auto;
 }
 
 .trans-div-background {
-    background-color: rgba(199,210,208,0.65);
-	border-radius: 15px;
+	background-color: rgba(199,210,208,0.65);
+	border-radius: 5px;
 }
 
 p {
@@ -76,9 +83,13 @@ p {
 }
 
 .propertyDesc {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	background-color: rgba(199,210,208,0.65);
-	border-radius: 15px;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 }
 
 .mainImg {
@@ -94,25 +105,78 @@ a {
 .footer {
 	font-size: 1em;
 	background-color: #f8c540;
-	margin:15px 0 0 0;
-	padding:6px 0 2px 0;
-	border:0 solid #bbb1a7;
-	border-radius:2px;
+	margin-top: 15px;
+	margin-left: 0;
+	padding-top: 6px;
+	padding-left: 0;
+	padding-bottom: 2px;
+	/* [disabled]border-color: #bbb1a7; */
+	/* [disabled]border-style: solid; */
+	border-radius: 2px;
 }
 
 
 
 
+.mainPropertyDesc {
+	margin-top: 25px;
+	text-align: left;
+	color: rgba(15,14,14,1.00);
+	background-color: rgba(199,210,208,0.65);
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	font-size: 1em;
+	margin-bottom: 25px;
+}
+.imagePet {
+	padding-bottom: 0px;
+	border: 3px solid rgba(248,197,64,1.00);
+	margin-top: 25px;
+	display: inline-block;
+}
+.petInfo {
+	text-align: left;
+}
+navbar {
 
 
-
-
-
-
-
-
-
-
-
-
-
+}
+.navbar-header {
+	background-color: rgba(248,197,64,1.00);
+}
+.nav.navbar-nav {
+	text-align: center;
+	/* [disabled]margin-left: 5%; */
+	/* [disabled]margin-right: 5%; */
+}
+.navButton {
+	background-color: #733800;
+}
+.petName {
+	color: rgba(106,51,0,1.00);
+	background-color: rgba(199,210,208,0.65);
+}
+.propertyList {
+	font-size: 1.3em;
+}
+.vrboBook {
+	text-align: center;
+	margin-top: 25px;
+}
+.adInfo {
+	padding-bottom: 25px;
+}
+.bandonMain {
+	background-image: url(../images/lighthouse.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.contactImg {
+	background-image: url(../images/lighthouseleft.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
